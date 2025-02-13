@@ -34,13 +34,13 @@ def divide(a, b):
 #The calcultor function
 def calculator(a, b, ops):
   if ops == 1:
-    add(a, b, ops)
+    add(a, b)
   elif ops == 2:
-    sub(a, b, ops)
+    sub(a, b)
   elif ops == 3:
-    multiply(a, b, ops)
+    multiply(a, b)
   elif ops == 4:
-    divide(a, b, ops)
+    divide(a, b)
 
 
 #displaying the calculator menu

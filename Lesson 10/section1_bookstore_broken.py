@@ -11,7 +11,7 @@ books = [
 #It prints out the star rating for a given book
 def get_star_count(book):
 
-  star_count_text = book[1]
+  star_count_text = book[2]
   star_count = 0
 
   if star_count_text == '1 stars':
